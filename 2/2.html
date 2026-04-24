@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarjeta de Usuario</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #eaeaea;
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      width: 300px;
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .banner {
+      height: 100px;
+      background: url('banner.jpg') center/cover;
+    }
+
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-top: -50px;
+      object-fit: cover;
+    }
+
+    .info {
+      padding: 10px;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+      border-top: 1px solid #ddd;
+    }
+
+    .stats div {
+      font-size: 14px;
+    }
+
+    .stats span {
+      display: block;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="banner"></div>
+    <img src="perfil.jpg" class="profile-img">
+
+    <div class="info">
+      <h2>Juan Pérez</h2>
+      <p>Buenos Aires</p>
+    </div>
+
+    <div class="stats">
+      <div><span>1200</span>Seguidores</div>
+      <div><span>800</span>Likes</div>
+      <div><span>150</span>Fotos</div>
+    </div>
+  </div>
+
+</body>
+</html>
