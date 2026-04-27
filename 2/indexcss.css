@@ -1,0 +1,22 @@
+
+
+    
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center; /* horizontal */
+      align-items: center;     /* vertical */
+      background: #f0f0f0;
+    }
+
+    .cajita {
+      width: 200px;
+      height: 200px;
+      background: steelblue;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+    }
