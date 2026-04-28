@@ -1,0 +1,14 @@
+.caja {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+    transition: all 0.3s ease;
+}
+
+.caja:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.2);
+}
