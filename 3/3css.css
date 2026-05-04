@@ -1,3 +1,7 @@
-ul {
-    list-style-image: url('icono.png'); /* poné una imagen en la carpeta */
-}
+li {
+  background-image: url('/Lachiki.png');
+  background-size: 16px 16px; 
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 24px; 
+} 

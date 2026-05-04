@@ -45,21 +45,19 @@
       object-fit: cover;
     }
 
-    /* Desktop */
-    @media (min-width: 600px) {
-      .profile {
-        flex-direction: row;
-        align-items: center;
-        text-align: left;
-        gap: 30px;
-      }
-
-      .profile-info {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .gallery img {
-        height: 200px;
-      }
+    .profile {
+      flex-direction: row;
+      align-items: center;
+      text-align: left;
+      gap: 30px;
     }
+
+    .profile-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .gallery img {
+      height: 200px;
+    }
+    
