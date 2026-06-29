@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#e6e6e6;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.tarjeta{
+    width:350px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+.banner{
+    height:130px;
+    background:linear-gradient(90deg,#4facfe,#00f2fe);
+}
+
+.perfil{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:5px solid white;
+    margin-top:-60px;
+    object-fit:cover;
+}
+
+.contenido{
+    padding:20px;
+}
+
+h2{
+    margin-bottom:5px;
+}
+
+.ciudad{
+    color:gray;
+    margin-bottom:25px;
+}
+
+.estadisticas{
+    display:flex;
+    justify-content:space-around;
+    border-top:1px solid #ddd;
+    padding-top:20px;
+}
+
+.estadisticas h3{
+    color:#333;
+    margin-bottom:5px;
+}
+
+.estadisticas p{
+    color:gray;
+    font-size:14px;
+}
