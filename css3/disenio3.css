@@ -8,7 +8,10 @@
 body{
     background:#fafafa;
 }
-
+#logoInstagram
+{
+    height: 50px;
+}
 header{
     display:flex;
     flex-direction:column;
